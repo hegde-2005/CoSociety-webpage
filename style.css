@@ -1,0 +1,130 @@
+body{
+    background-color: aqua;
+}
+
+#img{
+    top:0;
+    position: absolute;
+    left:120px;
+    height:220px;
+    width:200px;
+}
+#honey{
+    top:500px;
+    display:block;
+    margin-right: auto;
+    margin-left: auto;
+    left:500px;
+    height:350px;
+    width:400px;
+}
+header{
+    text-align: center;
+    background-color: blueviolet;
+    border-radius: 6px;
+    border:2px solid red;
+    color:burlywood;
+
+}
+nav {
+  background: linear-gradient(to right, #001f4d, #004080);
+  text-align: center;
+  padding: 10px 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 8px 12px;
+ 
+}
+
+nav ul li a:hover {
+  background-color: #f3108d;
+  border-radius: 10px;
+}
+ .con {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .text {
+      width: 48%;
+      font-size: medium;
+      margin-top: -100px;
+    }
+
+    .image {
+      width: 48%;
+      text-align: right;
+    }
+
+    .image img {
+      max-width: 100%;
+      height: auto;
+    }
+     .box {
+      width: 400px;
+      height: 190px;
+      display: flex;
+      left:400px;
+      justify-content: center;
+      align-items: center;
+      font-size: 24px;
+    }
+ .cons {
+      display: flex;
+      flex-direction:row;
+      margin-top:-100px; 
+      padding: 290px;
+    }
+    .go {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: azure;
+}
+
+.boxes {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  margin-top: 50px;
+  align-items: center;
+}
+
+.boxes a {
+  padding: 10px 20px;
+  border: 1px solid #00bfbf;
+  border-radius: 6px;
+  background-color: #e6ffff;
+  color: #006666;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  width: 200px;
+  text-align: center;
+}
+
+.boxes a:hover {
+  background-color: #ccffff;
+}
+
+
